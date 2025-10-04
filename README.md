@@ -24,7 +24,12 @@
  - Deploy to Koyeb + Heroku + Railway + Render.
  - [Developer support](https://telegram.me/TechifySupport) 24x7
 </details>
+SHORTLINK = "https://shortxlinks.in/32b97a6d89bf4fbe47e144d"
 
+user_id = message.from_user.id
+await message.reply(
+    f"🔴 Please solve this shortlink to access the bot:\n\n👉 {SHORTLINK}?uid={user_id}"
+)
 
 ### 🔥 VARIABLES
 
